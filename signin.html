@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In to Best Buy</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <!-- //////// nav sec //////////// -->
+    <div class="nav-sec">
+      <div class="logo-sec">
+        <a href="index.html">
+          <img
+            src="https://www.seekpng.com/png/full/271-2714116_new-best-buy-logo.png"
+            alt="logo image"
+          />
+        </a>
+      </div>
+
+      <div class="back-sec">
+        <a href="index.html">Return to home page</a>
+      </div>
+    </div>
+
+    <!-- /////////// signup sec ////////////// -->
+    <form class="container">
+      <h3>Sign In to Best Buy</h3>
+
+      <input
+        type="email"
+        name=""
+        id="email"
+        placeholder="Email Address"
+      /><br />
+      <div class="show-password">
+        <label for="">Show Passwords</label>
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/interface-line-14/32/hide-128.png"
+          alt="show password"
+          class="password-img show-img"
+        />
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/interface-line-14/32/unhide-128.png"
+          alt="hide password"
+          class="password-img hide-img hiding"
+        />
+      </div>
+      <input
+        type="password"
+        name=""
+        id="password"
+        placeholder="Password"
+      /><br />
+      <p class="wrong-password">Wrong Email ID or Password</p>
+      <p class="forgot">Forgot your password?</p>
+
+      <button type="submit" id="create-account">Sign In</button>
+      <p id="or"><span>or</span></p>
+
+      <button id="with-authn">
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/new-apple-product/24/touch_id-128.png"
+          alt=""
+          id="authn-img"
+        />
+        Sign In with WebAuthn
+      </button>
+
+      <button id="with-apple">
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/social-media-2273/64/social_media_network_online_apple-128.png"
+          alt=""
+          id="apple-img"
+        />
+        Sign In with Apple
+      </button>
+
+      <!-- ////// with google ///// -->
+      <button id="with-google">
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-128.png"
+          alt=""
+          id="google-img"
+        />
+        Sign In with Google
+      </button>
+
+      <p class="form-term">
+        By continuing you agree to our <span>Terms and Conditions</span>, our
+        <span>Privacy Policy</span>, and the
+        <span>My Best Buy® Program Terms</span>.
+      </p>
+      <hr />
+      <p class="signin">
+        Don't have an account? <a href="signup.html">Create an account</a>
+      </p>
+    </form>
+
+    <!-- ////////// footer sec ///////// -->
+    <div class="footer-sec">
+      <p>
+        <span>Terms and Conditions</span> <span>Privacy</span>
+        <span>Interest-Based Ads</span>
+      </p>
+      <p><span>Mobile Site</span></p>
+      <p>
+        Prices and offers are subject to change. © 2022 Best Buy. All rights
+        reserved. BEST BUY, the BEST BUY logo, the Tag Design, MY BEST BUY, and
+        BESTBUY.COM are trademarks of Best Buy and its affiliated companies.
+      </p>
+    </div>
+
+    <script src="signin.js"></script>
+  </body>
+</html>
