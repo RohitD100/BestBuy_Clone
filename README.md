@@ -23,3 +23,22 @@ BestBuy.com is an e-commerce web application that widely provides Tech-Gadgets a
   <hr><br>
   
    
+ ### Home Page 
+ - Navbar is Working 
+ - Searching is working 
+ - cart page is working  
+ <img src='https://github.com/RohitD100/BestBuy_Clone/blob/main/BestBuy_Homepage.png'/>
+ 
+  
+  ### SignUp Page 
+ - Sign Up Functionality is working 
+ <img src='https://github.com/RohitD100/BestBuy_Clone/blob/main/BestBuy_SignUp.png'/>
+ 
+  ### Search Page 
+ - Searching is working 
+ <img src='https://github.com/RohitD100/BestBuy_Clone/blob/main/BestBuy_SearchPage.png'/>
+ 
+ 
+   ### Cart Page 
+ - Cart Page functionality is working 
+ <img src='https://github.com/RohitD100/BestBuy_Clone/blob/main/BestBuy_CartPage.png'/>
